@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Anislet&#39;s Public API</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/OrwillT/Public-API@main/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/OrwillT/Public-API@main/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<header id="header">
+					<h1>Anislet Studio&#39;s Public API</h1>
+					<p>Powered by Cloudflare Workers&trade;<br>If you have any questions, mail to Orwill Q. Song</p>
+					<nav>
+						<ul>
+							<li><a href="https://github.com/OrwillT/Public-API.git" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:orwill@anislet.dev" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+					</nav>
+				</header>
+				<footer id="footer">
+					<span class="copyright">&copy; 2020 Anislet Studio, All rights reserved.</span>
+				</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove("is-preload"); };
+			window.ontouchmove = function() { return false; };
+			window.onorientationchange = function() { document.body.scrollTop = 0; };
+		</script>
+	</body>
+</html>
